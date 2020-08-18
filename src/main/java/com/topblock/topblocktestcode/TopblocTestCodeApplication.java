@@ -33,7 +33,7 @@ public class TopblocTestCodeApplication {
 		try {
 			DataSource.populateList(ExcelReader.read(excelPath));
 			Sender.postData();
-			
+
 		}catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
