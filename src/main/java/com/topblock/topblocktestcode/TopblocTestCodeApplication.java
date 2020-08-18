@@ -23,7 +23,7 @@ public class TopblocTestCodeApplication {
 
 	private static String [] excelPath;
 	@Value("${excel.url}")
-	public void setImagePath(String[] value) {
+	public void setUrLPath(String[] value) {
 		this.excelPath = value;
 	}
 
