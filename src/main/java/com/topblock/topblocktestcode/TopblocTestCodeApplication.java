@@ -33,8 +33,7 @@ public class TopblocTestCodeApplication {
 		try {
 			DataSource.populateList(ExcelReader.read(excelPath));
 			Sender.postData();
-			System.out.println(ClassService.getFemaleCsMajor());
-			System.out.println(ClassService.average());
+			
 		}catch (Exception e) {
 			System.out.println(e.getMessage());
 		}

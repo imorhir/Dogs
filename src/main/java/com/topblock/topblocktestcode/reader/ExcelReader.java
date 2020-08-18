@@ -20,7 +20,7 @@ public class ExcelReader {
 
 
     public static Map<String, Map<Integer,List<String>>> read(String[] fileLocation) throws IOException {
-       
+
         Map<String, Map<Integer,List<String>>> globalData= new HashMap<>();
         DataFormatter formatter = new DataFormatter();
         if(fileLocation != null) {
